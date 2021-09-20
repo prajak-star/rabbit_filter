@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-image:url("background.jpg");
+}
+h1{
+    font-size: large;
+}
+.rabbit:hover{
+    background-color:hotpink;
+}
+canvas{
+    animation-name: antimate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes antimate {
+    from{
+        box-shadow: 10px 10px 50px crimson;
+    }
+    to{
+        box-shadow: 10px 10px 50px chartreuse;
+    }
+}
