@@ -13,6 +13,7 @@ canvas{
     animation-duration: 5s;
     animation-iteration-count: infinite;
     margin-top: 50px;
+    text-align: center;
 }
 
 @keyframes antimate {
